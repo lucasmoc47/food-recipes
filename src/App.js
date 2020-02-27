@@ -49,6 +49,7 @@ function App() {
 					title={recipe.recipe.label}
 					calories={recipe.recipe.calories}
 					img={recipe.recipe.image} 
+					ingredients={recipe.recipe.ingredients}
 				/>
 			))}
 		</div>
